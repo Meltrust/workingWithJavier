@@ -1,15 +1,27 @@
 .nav {
-  display: flex;
-  justify-content: flex-end;
-  background-color: tomato;
+    display: flex;
+    justify-content: flex-end;
+    background-color: tomato;
 }
 
 .welcome-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /*width: 100%*/
-  height: 100vh;
-  color: white;
-  background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*width: 100%*/
+    height: 100vh;
+    color: white;
+    background-color: #000;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: olive;
+    }
+}
+
+@media (max-width: 61.25em) {
+    html {
+        font-size: 58%;
+    }
 }
